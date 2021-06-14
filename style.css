@@ -43,6 +43,7 @@
         -moz-animation: AnimationName 49s ease infinite;
         animation: AnimationName 49s ease infinite;
         display: grid;
+        width: 500px;
     }
     .title {
         text-align: center;
@@ -50,9 +51,11 @@
         font-size: 30px;
         line-height: 50px;
         background-color: white;
+        height: 175px;
+        width: 500px;
     }
     #imgtitle {
-        height: 400px;
+        height: 175px;
     }
     nav {
         list-style: none;
@@ -66,16 +69,17 @@
         box-shadow: 2px 10px 69px -5px rgba(114, 25, 222, 0.91);
         -webkit-box-shadow: 2px 10px 69px -5px rgba(114, 25, 222, 0.91);
         -moz-box-shadow: 2px 10px 69px -5px rgba(114, 25, 222, 0.91);
+        width: 500px;
     }
     nav a {
         list-style: none;
         display: inline-block;
-        font-size: 15px;
+        font-size: 10px;
         text-transform: uppercase;
         text-decoration: none;
         color: rgb(0, 0, 0);
         line-height: 50px;
-        width: 150px;
+        width: 80px;
         font-family: 'Josefin Sans', sans-serif;
         background: white;
     }
@@ -87,21 +91,72 @@
         text-decoration: none;
     }
     #ig_gallery {
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .embedsocial-hashtag {
+        width: 90%;
+        margin: 5%;
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .feed-powered-by-es {
         border-color: rgba(101, 116, 255, 1);
+    }
+    .tutorials-mother {
+        width: 100%;
+        background-color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .tutorials2 {
+        width: 100%;
+        height: 450px;
+        margin: 0%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #tutorials2a {
+        color: rgba(114, 25, 222, 0.91);
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 30px;
+        text-align: right;
+    }
+    #tutorials2b {
+        color: rgba(114, 25, 222, 0.91);
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 30px;
+    }
+    .envios-content {
+        font-size: 5px;
+        color: rgba(114, 25, 222, 0.91);
+    }
+    .tutorials1 {
+        width: 100%;
+        height: 275px;
+        margin: 0%;
+        background-color: white;
+        color: rgba(114, 25, 222, 0.91);
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 30px;
+        text-align: center;
     }
     .marketplace {
         display: grid;
         align-items: center;
         justify-items: center;
-        width: 100%;
+        width: 500px;
     }
     iframe {
-        width: 872px;
+        width: 400px;
         height: 450px;
         margin: 50px;
     }
@@ -117,6 +172,7 @@
         box-shadow: 2px 10px 69px -5px rgba(114, 25, 222, 0.91);
         -webkit-box-shadow: 2px 10px 69px -5px rgba(114, 25, 222, 0.91);
         -moz-box-shadow: 2px 10px 69px -5px rgba(114, 25, 222, 0.91);
+        width: 500px;
     }
     .mothercontacts {
         display: flex;
@@ -125,6 +181,7 @@
         grid-template-columns: repeat(3, 1fr);
         margin-top: 50px;
         margin-bottom: 50px;
+        width: 500px;
     }
     .cards {
         justify-self: center;
@@ -134,25 +191,30 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .card {
-        width: 14rem;
-        padding: 25px;
+        padding: 12px;
         display: flex;
-        margin-right: 50px;
-        margin-left: 50px;
-        width: 250px;
-        height: 350px;
+        margin-right: 25px;
+        margin-left: 25px;
+        width: 125px;
+        height: 175px;
         text-align: center;
         color: grey;
-        border-radius: 50px;
+        border-radius: 25px;
     }
     .card-img-top {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
-    .btn btn-primary {
-        background: rgb(27, 136, 249);
-        background: linear-gradient(90deg, rgba(27, 136, 249, 0.7203995601173021) 6%, rgba(101, 116, 255, 1) 28%, rgba(0, 113, 255, 0.7977665165165165) 100%);
-        min-height: calc(100vh -100px);
+    button {
+        width: 94px;
+        height: 38px;
+        background: linear-gradient(270deg, #2f76fa, #392ffa, #782ffa);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 10px;
+        text-align: center;
     }
     #wpp:hover {
         background: rgb(132, 250, 136);
@@ -172,25 +234,28 @@
         text-align: center;
         font-size: 15px;
         color: white;
+        width: 500px;
+        padding: 50px;
     }
     .location1 {
         display: flex;
         justify-content: center;
         align-content: center;
         background-color: white;
+        width: 500px;
     }
     .location2 {
         display: flex;
         justify-content: center;
         align-content: center;
         background-color: white;
+        width: 500px;
     }
 }
 
-;
 @media (min-width:501px) {
     body {
-        background: linear-gradient(270deg, #2f76fa, #392ffa, #782ffa);
+        background: linear-gradient(270deg, #2f76fa, #7b74ff, #782ffa);
         background-size: 600% 600%;
         -webkit-animation: AnimationName 49s ease infinite;
         -moz-animation: AnimationName 49s ease infinite;
@@ -240,12 +305,65 @@
         text-decoration: none;
     }
     #ig_gallery {
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .embedsocial-hashtag {
+        width: 90%;
+        margin: 5%;
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .feed-powered-by-es {
         border-color: rgba(101, 116, 255, 1);
+    }
+    .tutorials-mother {
+        width: 100%;
+        background-color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .tutorials2 {
+        width: 100%;
+        height: 450px;
+        margin: 0%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #tutorials2a {
+        color: rgba(114, 25, 222, 0.91);
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 30px;
+        text-align: right;
+        width: 250px;
+    }
+    #tutorials2b {
+        color: rgba(114, 25, 222, 0.91);
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 30px;
+        width: 250px;
+    }
+    .envios-content {
+        font-size: 5px;
+        color: rgba(114, 25, 222, 0.91);
+    }
+    .tutorials1 {
+        width: 500px;
+        height: 275px;
+        margin: 0%;
+        background-color: white;
+        color: rgba(114, 25, 222, 0.91);
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 30px;
+        text-align: center;
     }
     .marketplace {
         display: grid;
@@ -302,10 +420,17 @@
         width: 200px;
         height: 200px;
     }
-    .btn btn-primary {
-        background: rgb(27, 136, 249);
-        background: linear-gradient(90deg, rgba(27, 136, 249, 0.7203995601173021) 6%, rgba(101, 116, 255, 1) 28%, rgba(0, 113, 255, 0.7977665165165165) 100%);
-        min-height: calc(100vh -100px);
+    button {
+        width: 150px;
+        height: 50px;
+        background: linear-gradient(270deg, #2f76fa, #392ffa, #782ffa);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        margin: 20px;
     }
     #wpp:hover {
         background: rgb(132, 250, 136);
@@ -325,6 +450,7 @@
         text-align: center;
         font-size: 15px;
         color: white;
+        padding: 50px;
     }
     .location1 {
         display: flex;
